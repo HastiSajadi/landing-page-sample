@@ -114,3 +114,39 @@ width: 120px;
     color: var(--badge--color);
 }
 /* statistics */
+/* section two */
+.sec-two{
+    width: 100%;
+    height: 900px;
+    background-image: url(../img/seo3-sectionbg7.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.st-card-container{
+    padding: 0 200px;
+    display: flex;
+    align-items: center;
+}
+.st-card{
+width: 45%;
+background-color:rgb(65,52,142);
+border-radius: 30px;
+padding: 70px;
+}
+.card-text{
+    color: rgb(252,168,15);
+}
+.card-info{
+    line-height: 35px;
+}
+.play-btn{
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* section two */
