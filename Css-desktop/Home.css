@@ -106,3 +106,23 @@ width: 120px;
     font-weight: 700;
 }
 /* features */
+/* about agency */
+.about{
+    width: 100%;
+    background-image: url(../img/seo3-sectionbg2.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.about-img{
+    width: 40%;
+    padding: 20px;
+}
+
+
+.about-card{
+    width: 40%;
+    padding: 20px;
+}
+/* about agency */
