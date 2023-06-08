@@ -79,3 +79,30 @@ width: 120px;
     font-size: .8rem;
 }
 /* head */
+/* features */
+.features{
+    width: 100%;
+    background-image: url(../img/seo3-sectionbg4.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f--info {
+    font-size: 1.2rem;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.card-text{
+    color: var(--head-text-color);
+    font-size: var(--head-text-size-small);
+    font-weight: 700;
+}
+/* features */
