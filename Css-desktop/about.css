@@ -177,3 +177,54 @@ padding: 70px;
     background-color:rgb(230, 230, 230) ;
 }
 /* clients */
+/* join to us */
+.join-us{
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/seo3-sectionbg6.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 50px;
+}
+.join-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+.join-badge{
+    background-color: rgb(81,59,111);
+}
+.join-form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.join-form input{
+    width: 100%;
+    padding: 8px;
+    background-color: rgb(80,71,160);
+    box-shadow: none;
+    border: none;
+}
+.join-form input:focus{
+outline: none;
+background-color: rgb(80,71,160);
+}
+.join-btn{
+    background-color: rgb(252,168,15);
+    border: none;
+    box-shadow: none;
+}
+.join-btn:hover{
+    background-color: rgb(252,168,15);
+}
+/* join to us */
