@@ -1,0 +1,43 @@
+.navbar{
+    background-color:rgba(255, 255, 255, 0.952); 
+    padding: 5px 20px;                                      
+}
+
+/* hamburger line */
+
+.line1 , .line2 , .line3{
+    width: 20px;
+    height: 1px;
+    margin: 5px;
+    background-color: #EF4C00;
+    transition: all .5s;
+}
+
+.change .line1{
+    transform: rotate(-45deg) translate(-5px , 6px);
+}
+.change .line2{
+    opacity: 0;
+}
+.change .line3{
+    transform: rotate(45deg) translate(-5px , -6px);
+}
+
+/* hamburger line */
+
+.navbar-brand img{
+width: 120px;
+}
+
+.nav-link{
+    color: rgb(34,34,40);
+    text-decoration: none; 
+    transition: .5s; 
+}
+.nav-link:hover{
+    color: rgb(134,117,240);
+}
+.nav-link:focus{
+    color: rgb(134,117,240);
+}
+   /* navigation */
