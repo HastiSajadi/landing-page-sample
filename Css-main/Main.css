@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700&display=swap');
+
+:root{
+    --head-text-color:rgb(71,50,136);
+    --head-text-size-big:3.2rem;
+    --head-text-size-normal:2.2rem;
+    --head-text-size-small:1.5rem;
+    --badge-background:rgb(255,244,224);
+    --badge--color:rgb(252,172,25);
+    --btn-light-blue:rgb(197,196,252);
+    --btn-light-blue-hover: rgb(185, 184, 243);
+    --btn-darker-blue:rgb(123,102,239);
+    --btn-darker-blue-hover:rgb(113, 92, 228);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Archivo',Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+/* some main classes */
+   /* btn */
+   .btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none; 
+    background-color: var(--btn-light-blue);
+    width: 170px;
+    transition: .5s;  
+}
+    .btn2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        cursor: pointer;
+        text-decoration: none; 
+        background-color: var(--btn-darker-blue);
+        width: 170px;
+        transition: .5s;  
+}
+
+   .btn1:hover{
+       background-color:var(--btn-light-blue-hover);
+       color: #fff;
+       text-decoration: none;
+   }
+   .btn2:hover{
+       background-color:var(--btn-darker-blue-hover);
+       color: #fff;
+       text-decoration: none;
+}
+   /* btn */
+   /* badge */
+   .badge{ 
+    width: fit-content;
+    padding: 2px 10px;
+    font-size: 1rem;
+    background-color: var(--badge-background);
+    color: var(--badge--color);
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    font-weight: 700;
+}
+   /* badge */
+   /* texts */
+   .head-texts{
+    font-size: var(--head-text-size-big);
+    font-weight: 700;
+    color: var(--head-text-color);
+    line-height: 50px;
+}
+.info{
+    font-size: 1rem;
+    color: rgb(34,34,40);
+}
+   /* texts */
+   /* some main classes *
