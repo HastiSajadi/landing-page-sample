@@ -1,0 +1,48 @@
+@media (max-width:425px){
+    
+.head-texts{
+    width: 100%;
+    margin: 20px 0;
+    font-size: var(--head-text-size-small);
+    line-height: 30px;
+}
+.badge{
+    font-size: .5rem;
+}    
+.info{
+    font-size: .8rem;
+}
+.btn1 , .btn2{
+    width: 100px;
+}
+
+/* header */
+.header{
+    height: auto;
+    margin-top: 60px;
+}
+.banner{
+    height: auto;
+}
+/* header */
+/* about agency */
+.about-card{
+    padding: 0 40px;
+}
+/* about agency */
+/* services */
+.se--card{
+    flex-direction: column;
+}
+.card-img{
+    width: 100%;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+}
+.card-info h1{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+/* services */
+}
