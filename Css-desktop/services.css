@@ -43,3 +43,29 @@ width: 120px;
     color: rgb(134,117,240);
 }
    /* navigation */
+    /* header */
+    .services-header{
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+       }
+       .services-img{
+        width: 40%;
+        padding: 20px;
+    }
+    
+    
+    .services-card{
+        width: 40%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .h-text-size{
+        font-size: 4.5rem;
+        line-height: 80px;
+    }
+    
+       /* header */
