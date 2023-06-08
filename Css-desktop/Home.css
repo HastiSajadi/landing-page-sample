@@ -201,3 +201,22 @@ align-items: center;
     font-weight: 700; 
     margin-bottom: 20px;
 }
+/* our work */
+.our-work{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.works-info{
+    width: 40%;
+}
+.works-img{
+   width: 40%; 
+   padding: 20px;
+}
+.icon-text{
+    color: var(--head-text-color);
+    font-size: var(--head-text-size-xsmall);
+    font-weight: 700; 
+}
