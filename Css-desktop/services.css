@@ -91,3 +91,52 @@ width: 120px;
     justify-content: flex-end;
    }
    /* section one */
+    /* services */
+.services{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+    background-image: url(../img/seo3-sectionbg3.png);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+}
+.se--head{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.cards-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.se--card{
+    width: 40%;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: 0px 10px 30px rgba(55, 43, 125, 0.116);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.card-img{
+    width: 30%;  
+}
+.card-info h1{
+    color: var(--head-text-color);
+    font-size: var(--head-text-size-small);
+    font-weight: 700; 
+    margin-bottom: 20px;
+}
