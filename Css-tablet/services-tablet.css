@@ -1,0 +1,244 @@
+@media( max-width:992px){
+
+    .head-texts{
+        width: 100%;
+        margin: 20px 0;
+        font-size: var(--head-text-size-big);
+        line-height: normal;
+    }
+    .badge{
+        width: fit-content;
+        font-size: .7rem;
+      }
+      .info{
+        width: 100%;
+    }
+
+    /* navigation */
+
+    .navbar-brand img{
+        width: 100px;
+        
+    }
+    .nav-button{
+        position: absolute;
+        top:10px;
+        right: 0;
+        margin-left: 10px;
+    }
+    
+    .navbar-nav{
+        padding: 0px;
+        background-color: rgb(31,25,69);
+        width: 250px;
+        height: 100vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    .nav-item{
+        font-size: 13px;
+        padding: 5px 20px;
+        width: 100%;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.11) inset;
+       
+    }
+    .nav-link{
+        
+        color:rgb(197,196,252) ;
+        transition: all .5s; 
+    }
+    .nav-link:hover{
+        color: rgb(255, 255, 255);
+    }
+    .nav-link:focus{
+        color: rgb(255, 255, 255);
+    }
+    .nav-btn{
+        width: 100%;
+        margin: 15px 0;
+    }
+    
+    /* navigation */
+    /* head */
+    .header{
+        flex-direction: column;
+        background: none;
+        
+    }
+    .header-img{
+        display: block;
+        width: 100%;
+    }
+    .banner{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    /* head */
+    /* section one  */
+    .sec-one{
+        padding: 30px;
+    }
+    .sec1-head h1 {
+        font-size: var(--head-text-size-normal);
+    }
+    .sec1-text{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-p , .text-a{
+        width: 100%;
+    }
+    .text-a{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    /* section one  */
+    /* features */
+    .features{
+        padding: 20px;
+    }
+    .f--badge{
+        margin-top: 20px;
+    }
+    .f--info {
+        font-size: .9rem;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    /* about agency */
+   .about{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .about-img{
+    width: 100%;
+   }
+   .about-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+   }
+   .about-br{
+    display: none;
+   }
+   /* statistics  */
+   .statistics{
+    width: 100%;
+    padding: 30px;
+   }
+   .s-card{
+    width: 100%;
+    flex-direction: column;
+   }
+   .s-number{
+    font-size: 4rem;
+   }
+.col1 , .col2 , .col3 {
+    margin-bottom: 50px;
+}
+/* services */
+.cards-container{
+    flex-direction: column;
+}
+.se--card{
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* services */
+/* our work */
+.our-work{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+.works-info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.works-img{
+    width: 100%;
+}
+/* our work */
+/* clients */
+.clients{
+
+    align-items: center;
+    text-align: center;
+}
+.clients-icons{
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.icons-img{
+    margin: 10px;
+}
+/* clients */
+/* join to us */
+.join-form{
+    width: 100%;
+}
+
+/* join to us */
+/* footer */
+.footer{
+    flex-direction: column;
+    padding: 80px 30px;
+    height: auto;
+}
+.site-info{
+    display: flex;
+    flex-direction: column;  
+    
+}
+.col--1{
+    font-size: .8rem;
+}
+.col--2{
+    margin: 80px 0;
+    align-self: center;
+    font-size: .8rem;
+}
+.col--3{
+    align-self: flex-end;
+}
+.col--3-font{
+    justify-content: flex-end;
+    font-size: .8rem;
+}
+/* footer */
+.rights{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rights p{
+margin: 0;
+font-size:.7rem;
+}
+}
+
+/* END OF HOME PAGE */
+
+/* ABOUT US PAGE */

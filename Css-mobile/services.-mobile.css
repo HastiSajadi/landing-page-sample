@@ -1,9 +1,9 @@
 @media (max-width:425px){
-
+    
     .head-texts{
         width: 100%;
         margin: 20px 0;
-        font-size: var(--head-text-size-small);
+        font-size: var(--head-text-size-normal);
         line-height: 30px;
     }
     .badge{
@@ -21,16 +21,42 @@
     .banner{
         height: auto;
     }
-    /* header */
-    /* about agency */
-    .about-card{
-        padding: 0 40px;
+    .services-header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
-    .text-col-1{
+    .services-card , .services-img{
+        width: 100%;
+    }
+    /* header */
+    /* section one */
+    .sec-one{
         padding: 30px;
     }
-    /* about agency */
+    .sec1-head h1 {
+        font-size: var(--head-text-size-small);
+    }
+    .sec1-text{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-p , .text-a{
+        width: 100%;
+    }
+    .text-a{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    /* section one */
+
     /* services */
+    .services{
+        margin-top: 0;
+    }
+   
     .se--card{
         flex-direction: column;
     }
@@ -45,7 +71,4 @@
         margin-bottom: 10px;
     }
     /* services */
-    .st-card{
-        padding: 30px;
-    }
     }
